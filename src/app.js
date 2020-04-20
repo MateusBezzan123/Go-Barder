@@ -1,6 +1,7 @@
 import express from 'express';
 // eslint-disable-next-line linebreak-style
 import routes from './routes';
+import './database';
 
 class App {
     constructor() {

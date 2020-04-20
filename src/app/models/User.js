@@ -11,6 +11,11 @@ class User extends Model {
             },
             {
                 sequelize,
+                modelName: 'user',
+                timestamps: false,
+                freezeTableName: true,
+                underscored: false,
+                tableName: 'user',
             }
         );
     }
